@@ -66,13 +66,13 @@ class G {
             System.out.print(l[i]+" ");
     }
     public<T extends Integer> void Max(T[] l,int b, int e) {
-        T max=l[b];
+        T m=l[b];
         for(int i=b;i<=e;i++) {
-            if(l[i]>max) {
-                max=l[i];
+            if(l[i]>m) {
+                m=l[i];
             }
         }
-        System.out.println("The maximal element in the specified range is : "+max);
+        System.out.println("Max element: "+m);
     }
 }
 
